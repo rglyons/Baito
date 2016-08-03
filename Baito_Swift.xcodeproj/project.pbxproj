@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0412ED341CFACBAD0006BF5E /* TermDefTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412ED331CFACBAD0006BF5E /* TermDefTableViewController.swift */; };
+		041EC9C01D1FA959009ACC25 /* VerticallyCenteredTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EC9BF1D1FA959009ACC25 /* VerticallyCenteredTextView.swift */; };
+		041EC9C21D1FCE8E009ACC25 /* FlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EC9C11D1FCE8E009ACC25 /* FlashCardView.swift */; };
+		042C1DC01CF48A6C00E09446 /* SetListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C1DBF1CF48A6C00E09446 /* SetListTableViewCell.swift */; };
+		042C1DC41CF48BC900E09446 /* TermDefTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C1DC31CF48BC900E09446 /* TermDefTableViewCell.swift */; };
+		042C1DC61CF48EC900E09446 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C1DC51CF48EC900E09446 /* Set.swift */; };
+		042C1DC81CF4906D00E09446 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C1DC71CF4906D00E09446 /* Term.swift */; };
+		042C1DCC1CF492F400E09446 /* SetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C1DCB1CF492F400E09446 /* SetTableViewController.swift */; };
+		043CB0DE1D1CFEA200409AF3 /* StudyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CB0DD1D1CFEA200409AF3 /* StudyTableViewController.swift */; };
+		043CB0E01D1CFF2800409AF3 /* StudyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043CB0DF1D1CFF2800409AF3 /* StudyTableViewCell.swift */; };
 		04584D531CDF637200DBB538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584D521CDF637200DBB538 /* AppDelegate.swift */; };
 		04584D551CDF637200DBB538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584D541CDF637200DBB538 /* ViewController.swift */; };
-		04584D581CDF637200DBB538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04584D561CDF637200DBB538 /* Main.storyboard */; };
+		04584D581CDF637200DBB538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04584D561CDF637200DBB538 /* Main.storyboard */; settings = {ASSET_TAGS = (scrollView, ); }; };
 		04584D5A1CDF637200DBB538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04584D591CDF637200DBB538 /* Assets.xcassets */; };
 		04584D5D1CDF637200DBB538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04584D5B1CDF637200DBB538 /* LaunchScreen.storyboard */; };
 		04584D681CDF637300DBB538 /* Baito_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04584D671CDF637300DBB538 /* Baito_SwiftTests.swift */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0412ED331CFACBAD0006BF5E /* TermDefTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermDefTableViewController.swift; sourceTree = "<group>"; };
+		041EC9BF1D1FA959009ACC25 /* VerticallyCenteredTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticallyCenteredTextView.swift; sourceTree = "<group>"; };
+		041EC9C11D1FCE8E009ACC25 /* FlashCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCardView.swift; sourceTree = "<group>"; };
+		042C1DBF1CF48A6C00E09446 /* SetListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetListTableViewCell.swift; path = ../SetListTableViewCell.swift; sourceTree = "<group>"; };
+		042C1DC31CF48BC900E09446 /* TermDefTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermDefTableViewCell.swift; path = ../TermDefTableViewCell.swift; sourceTree = "<group>"; };
+		042C1DC51CF48EC900E09446 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		042C1DC71CF4906D00E09446 /* Term.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		042C1DCB1CF492F400E09446 /* SetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetTableViewController.swift; path = ../SetTableViewController.swift; sourceTree = "<group>"; };
+		043CB0DD1D1CFEA200409AF3 /* StudyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyTableViewController.swift; sourceTree = "<group>"; };
+		043CB0DF1D1CFF2800409AF3 /* StudyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyTableViewCell.swift; sourceTree = "<group>"; };
 		04584D4F1CDF637200DBB538 /* Baito_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baito_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04584D521CDF637200DBB538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04584D541CDF637200DBB538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +117,19 @@
 		04584D511CDF637200DBB538 /* Baito_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				042C1DCB1CF492F400E09446 /* SetTableViewController.swift */,
+				042C1DBF1CF48A6C00E09446 /* SetListTableViewCell.swift */,
+				0412ED331CFACBAD0006BF5E /* TermDefTableViewController.swift */,
+				042C1DC31CF48BC900E09446 /* TermDefTableViewCell.swift */,
+				043CB0DD1D1CFEA200409AF3 /* StudyTableViewController.swift */,
+				043CB0DF1D1CFF2800409AF3 /* StudyTableViewCell.swift */,
+				04584D561CDF637200DBB538 /* Main.storyboard */,
+				041EC9BF1D1FA959009ACC25 /* VerticallyCenteredTextView.swift */,
+				041EC9C11D1FCE8E009ACC25 /* FlashCardView.swift */,
+				042C1DC51CF48EC900E09446 /* Set.swift */,
+				042C1DC71CF4906D00E09446 /* Term.swift */,
 				04584D521CDF637200DBB538 /* AppDelegate.swift */,
 				04584D541CDF637200DBB538 /* ViewController.swift */,
-				04584D561CDF637200DBB538 /* Main.storyboard */,
 				04584D591CDF637200DBB538 /* Assets.xcassets */,
 				04584D5B1CDF637200DBB538 /* LaunchScreen.storyboard */,
 				04584D5E1CDF637200DBB538 /* Info.plist */,
@@ -187,12 +217,16 @@
 		04584D471CDF637200DBB538 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					scrollView,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Robert Lyons";
 				TargetAttributes = {
 					04584D4E1CDF637200DBB538 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C5ZJ8W722H;
 					};
 					04584D621CDF637300DBB538 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,8 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041EC9C01D1FA959009ACC25 /* VerticallyCenteredTextView.swift in Sources */,
+				042C1DC61CF48EC900E09446 /* Set.swift in Sources */,
+				042C1DC01CF48A6C00E09446 /* SetListTableViewCell.swift in Sources */,
+				0412ED341CFACBAD0006BF5E /* TermDefTableViewController.swift in Sources */,
 				04584D551CDF637200DBB538 /* ViewController.swift in Sources */,
+				042C1DCC1CF492F400E09446 /* SetTableViewController.swift in Sources */,
+				043CB0E01D1CFF2800409AF3 /* StudyTableViewCell.swift in Sources */,
 				04584D531CDF637200DBB538 /* AppDelegate.swift in Sources */,
+				042C1DC41CF48BC900E09446 /* TermDefTableViewCell.swift in Sources */,
+				043CB0DE1D1CFEA200409AF3 /* StudyTableViewController.swift in Sources */,
+				042C1DC81CF4906D00E09446 /* Term.swift in Sources */,
+				041EC9C21D1FCE8E009ACC25 /* FlashCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Baito_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RLProjects.Baito-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +457,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Baito_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RLProjects.Baito-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +534,7 @@
 				04584D791CDF637300DBB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04584D7A1CDF637300DBB538 /* Build configuration list for PBXNativeTarget "Baito_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +543,7 @@
 				04584D7C1CDF637300DBB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04584D7D1CDF637300DBB538 /* Build configuration list for PBXNativeTarget "Baito_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +552,7 @@
 				04584D7F1CDF637300DBB538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
